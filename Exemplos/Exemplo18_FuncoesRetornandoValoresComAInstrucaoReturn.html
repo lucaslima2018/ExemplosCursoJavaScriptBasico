@@ -1,0 +1,27 @@
+﻿<html>
+	<head>
+		<title>Testando JavaScript</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			/*Instrução RETURN*/
+			/*function quadrado(numero){
+				quad = numero * numero;
+				return quad;
+			}
+			var num = prompt("Entre com um número qualquer");
+			document.write("O quadrado de " + num + " é " + quadrado(num));*/
+			
+			/*Usando Mais de Uma Declaração RETURN*/
+			function quadrado(numero){
+				if(isNaN(numero)){
+					return "Valor digitado não é um número válido";
+				}
+				quad = numero * numero;
+				return quad;
+			}
+			var num = prompt("Entre com um número qualquer");
+			document.write(quadrado(num));
+		</script>
+	</body>
+</html>

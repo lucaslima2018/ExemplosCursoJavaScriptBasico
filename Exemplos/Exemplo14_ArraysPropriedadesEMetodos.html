@@ -1,0 +1,92 @@
+﻿<html>
+	<head>
+		<title>Testando JavaScript</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var Cidades = ["São Paulo", "Recife", "Vitória", "Aracaju"];
+			
+			/*Exibir o Tamanho do Array - Propriedade LENGTH*/
+			/*var QuantCidades = Cidades.length;
+			document.write("O array possui " + QuantCidades + " elementos");*/
+			
+			/*Adicionar Elementos ao Array - Propriedade PUSH - OBS: ACRESCENTA SEMPRE NO FINAL DO ARRAY*/
+			/*Cidades.push("Blumenau");
+			Cidades.push("Ouro Preto");
+			
+			for(i = 0; i < Cidades.length; i++)
+			{
+				document.write(Cidades[i] + "<br/>");
+			}*/
+			
+			/*Removendo o Último Elemento do Array - Propriedade POP*/
+			/*document.write(Cidades[Cidades.length-1] + "<br/>");
+			Cidades.pop();
+			document.write(Cidades[Cidades.length-1] + "<br/>");*/
+			
+			/*Método JOIN: Unindo os Elementos de Um Array*/
+			/*var ConjuntoCidades = Cidades.join(", ");
+			document.write(ConjuntoCidades);*/
+			
+			/*Remover o Primeiro Elemento de Um Array - Método SHIFT*/
+			/*Cidades.push("Maceió");
+			document.write("Antes do deslocamento: <br/>");
+			document.write("Tamanho: " + Cidades.length + "<br/>");
+			document.write("1º elemento: "+ Cidades[0] + "<br/><br/>");
+			Cidades.shift();
+			document.write("Após o deslocamento: <br/>");
+			document.write("Tamanho: " + Cidades.length + "<br/>");
+			document.write("1º elemento: "+ Cidades[0] + "<br/><br/>");*/
+			
+			/*Excluindo Um Elemento do Array - Operados DELETE - OBS: Apaga apenas o conteúdo da posição especificada.
+			O Array mantém a mesma quantidade de elementos, porém o conteúdo da posição apagada é exibito como UNDEFINED,
+			requisitando tratamento posterior.*/
+			/*for(i = 0; i < Cidades.length; i++)
+			{
+				document.write(Cidades[i] + "<br/>");
+			}
+			delete Cidades[2];
+			document.write("<br/> Após excluir o elemento: <br/><br/>");
+			for(i = 0; i < Cidades.length; i++)
+			{
+				document.write(Cidades[i] + "<br/>");
+			}*/
+			
+			/*Adicionando Elementoa a Partir de Uma Posição - Método SPLICE*/
+			/*for(i = 0; i < Cidades.length; i++)
+			{
+				document.write(Cidades[i] + "<br/>");
+			}*/
+			
+			/*Sem Remover Elementos*/
+			//Cidades.splice(1,0,"Manaus","Londrina");
+			
+			/*Removendo Elementos*/
+			//Cidades.splice(1,2,"Manaus","Londrina");
+			
+			/*document.write("<br/> Após adicionar os elementos:<br/><br/>");
+			for(i = 0; i < Cidades.length; i++)
+			{
+				document.write(Cidades[i] + "<br/>");
+			}*/
+			
+			/*Concatenar Arrays - Método CONCAT*/
+			/*var Sudeste = ["SP","RJ","ES","MG"];
+			var Nordeste = ["PI","MA","CE","RN","PB","PE","SE","AL","BA"];
+			var Norte = ["AC","AM","AP","RO","RR","PA","TO"];
+			var Sul = ["PR","SC","RS"];
+			var CentroOeste = ["MS","MT","GO","DF"];
+			
+			var Estados = Nordeste.concat(Sudeste,Norte,Sul,CentroOeste);
+			
+			document.write("<br> Listando os estados:<br/><br/>");
+			
+			Estados.sort(); //Ordenando os estados alfabeticamente.
+			
+			for(i = 0; i < Estados.length; i++)
+			{
+				document.write(Estados[i] + "<br/>");
+			}*/
+		</script>
+	</body>
+</html>
